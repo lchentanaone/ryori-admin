@@ -1,0 +1,139 @@
+.reviewsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.reviewText {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.stars {
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.review-content {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.signature {
+  margin: 0px 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.signatureText {
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: rgb(224, 224, 224);
+  word-wrap: break-word;
+  text-align: left;
+  margin-top: 4px;
+}
+.ryo {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+}
+.center {
+  text-align: center;
+  padding: 5px 20px;
+  background-color: #db1b1b;
+  border-radius: 5px;
+  gap: 10px;
+}
+.label {
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.balance {
+  color: #fff;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.sendIcon {
+  color: #fff;
+  font-size: 14px;
+}
+
+.sendButton {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background-color: #db1b1b;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 3px 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.sendButton:hover {
+  background-color: rgb(158, 34, 34);
+}
+.disabledButton {
+  background-color: #95a5a6; /* Disabled color */
+  color: #fff;
+  cursor: not-allowed; /* Change cursor to indicate it's disabled */
+}
+.disabledButton:hover {
+  background-color: #aaadaf;
+}
+
+.cancelSendBtn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  width: 100px;
+}
+.sendBtn {
+  background-color: #db1b1b;
+  color: #fff;
+}
+.cancelBtn {
+  background-color: #aaadaf;
+  color: #000;
+}
+.token {
+  width: 40px;
+  height: 40px;
+}
+.modalTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

@@ -1,0 +1,313 @@
+.accordion_FD {
+  display: flex;
+  flex-direction: row;
+  align-items: "center";
+  justify-content: "flex-end";
+  gap: 30px;
+}
+.tabLabel {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+._button {
+  width: 100px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-top: 7px;
+}
+.primary_color_btn {
+  color: white;
+  background-color: #db1b1b;
+}
+._button:active {
+  background-color: #8b2c2c;
+  transition: none;
+}
+.OrderNeedConfirm {
+  background-color: gray;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.text {
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+.total {
+  font-size: 15px;
+  font-weight: 600;
+  color: #434343;
+}
+._buttonDialog {
+  padding: 7px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+._buttonDone {
+  padding: 7px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-top: 7px;
+}
+._buttonItem {
+  padding: 7px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-top: 7px;
+}
+._buttonItem:active {
+  background-color: #8b2c2c;
+  transition: none;
+}
+.statusDraft {
+  color: white;
+  background-color: #db1b1b;
+}
+.statusNew {
+  color: white;
+  background-color: #4285f4;
+}
+.statusCooking {
+  color: white;
+  background-color: #ff7a00;
+}
+.statusReady {
+  color: white;
+  background-color: #efb700;
+}
+.statusPaying {
+  color: white;
+  background-color: red;
+}
+.doneColor {
+  color: white;
+  background-color: #12bf38;
+}
+.cancelColor {
+  color: white;
+  background-color: #b3acac;
+}
+.cancelBtn {
+  padding: 7px;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: #707070;
+}
+.cancelBtn:active {
+  background-color: #909090;
+}
+.doneStatus {
+  padding: 7px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  background-color: #61eb34;
+  color: #fff;
+}
+.customerName {
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 600;
+  width: 150px;
+  color: #333333;
+}
+.order_cus_name_notes {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+.profileText {
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.logoutBtn {
+  padding: 7px 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: #db1b1b;
+  margin-top: 20px;
+}
+.logoutBtn:active {
+  background-color: #8b2c2c;
+  transition: none;
+}
+/* --------------- */
+.th1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #777777;
+}
+.th {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #686767;
+}
+.thData {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #434343;
+}
+/* styles.module.css */
+.tableNo {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #086afd;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.td {
+  text-align: center;
+  padding: 8px;
+}
+
+.width200 {
+  width: 200px;
+}
+
+.leftAlign {
+  text-align: left;
+  width: 150px;
+}
+.leftAlign2 {
+  text-align: center;
+  width: 250px;
+}
+.status {
+  text-align: center;
+  width: 100px;
+}
+.statusText {
+  text-align: center;
+  width: 100px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+.qty {
+  text-align: center;
+  width: 80px;
+}
+.item {
+  text-align: left;
+  width: 400px;
+}
+.notes {
+  text-align: left;
+  width: 470px;
+}
+.actionBtn {
+  width: 120px;
+}
+.openModal {
+  text-align: right;
+}
+.rightAlign {
+}
+.middleAlign {
+  text-align: center;
+}
+
+.innerDetails td {
+  padding: 0;
+}
+.innerDetails div {
+  max-height: 0;
+  transition: all 1s;
+  overflow: hidden;
+}
+.innerDetails.expanded div {
+  max-height: 800px;
+  padding: 5px 20px;
+}
+.date {
+  font-family: "Quicksand";
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+}
+.time {
+  font-family: "Quicksand";
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333;
+}
+.addOns {
+  font-family: "Quicksand";
+  font-size: 14px;
+  color: #000;
+}
+.addOnsCheck {
+  font-size: 14px;
+  color: #008012;
+}
+.title {
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 700;
+  color: #333333;
+}
+.lineSpacing {
+  line-height: 1.6;
+}
+.totalTransItem {
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 10px;
+}
+.item_qty {
+  color: #2f6f11;
+  font-size: 15px;
+  font-family: "Quicksand";
+  font-weight: 700;
+}

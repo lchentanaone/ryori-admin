@@ -1,0 +1,87 @@
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subMenu {
+  padding: 5px;
+  text-align: left;
+  border-color: #cdcdcd;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.subMenu_items {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #000;
+  align-items: center;
+}
+.modal_btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+._button {
+  padding: 10px 55px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.uploadImg_menu {
+  color: white;
+  padding: 5px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  background-color: #db1b1b;
+  margin-bottom: 15px;
+}
+.subM_value {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+.subMenu_input {
+  height: 30px;
+  padding: 5px;
+  border-radius: 4px;
+  width: 100%;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-weight: 600;
+}
+.label {
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-weight: 600;
+}
+.subMenu_btn {
+  margin-top: 10px;
+  background-color: #007fff;
+  color: #fff;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 13px;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}

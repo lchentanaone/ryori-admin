@@ -1,0 +1,153 @@
+/* Quicksand-SemiBold */
+.container {
+  /* background-color: var(--color-primary); */
+  background-color: "#FFFFFF";
+  padding-left: 25vh;
+  padding-right: 25vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashInfo {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--color-primary);
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+}
+.sum_rev {
+  display: flex;
+  flex-direction: "row";
+  justify-content: space-around;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.summaryInfo {
+  width: 160px;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+.gap {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.mt {
+  margin-top: 20px;
+}
+.filter {
+  flex-direction: row;
+  display: flex;
+}
+.new {
+  background-color: #ff8f1f;
+  padding: 25px;
+}
+.preparing {
+  background-color: #4285f4;
+  padding: 25px;
+}
+.served {
+  background-color: #12bf38;
+  padding: 25px;
+}
+.waiting_payment {
+  background-color: #848f9a;
+  padding: 15px;
+}
+.done {
+  background-color: #12bf38;
+  padding: 15px;
+}
+.cancelled {
+  background-color: #777777;
+  padding: 15px;
+}
+.dashBox {
+  background: linear-gradient(
+    108.4deg,
+    rgb(253, 44, 56) 3.3%,
+    rgb(176, 2, 12) 98.4%
+  );
+  /* height: 90px;
+  width: 180px; */
+  padding: 20px 70px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.label_status {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.storeName {
+  color: #000;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.bName {
+  color: #000;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.con {
+  background: "red";
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px rgba(227, 220, 220, 0.5),
+    -2px -2px 2px rgba(227, 220, 220, 0.5), 0 2px 2px rgba(227, 220, 220, 0.5),
+    0 -2px 2px rgba(227, 220, 220, 0.5), inset 0 0 4px rgba(227, 220, 220, 0.5);
+}
+.con_padding {
+  padding: 20px;
+}
+.con_padding2 {
+  padding: 20px 110px;
+}
+.dashHead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.consumptions {
+  margin-top: -115px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.filter_btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+.int_value {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
